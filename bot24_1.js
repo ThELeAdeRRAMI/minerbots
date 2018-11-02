@@ -14,4 +14,4 @@ other.channels.get("507275523349676034").send(`${ReBeL[Math.floor(Math.random() 
 },4000);
 });
 
-other.login(config.token24);
+other.login(config.NTA3ODQ2NDgyMTQ2MjMwMjkz.Dr2oag.FwtRIPaKG06r85guMHpgDj4CM0Q);
