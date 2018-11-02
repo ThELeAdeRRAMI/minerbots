@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+ const Discord = require('discord.js');
 const client = new Discord.Client();
 console.log("Scrpit By Dream");
 
@@ -9,5 +9,12 @@ setInterval(function() {
 channel.send(`LeAdeR Is The Best    LeAdeR Is The Best    LeAdeR Is The Best    LeAdeR Is The Best    LeAdeR Is The Best    `);
 }, 30)
 })
-
-client.login(process.env.BOT_TOKEN);
+client.on("message", function(message) {
+    var args = message.content.split(/ +/g);
+    var command = args.shift()
+    
+    if(command == "say") {
+        message.channel.send(args.slice(1, args.length).join(" "))    
+    }
+});
+client.login(process.env.BOT_TOKEN); 
