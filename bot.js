@@ -6,7 +6,7 @@ console.log("Scrpit By Dream");
 client.on("ready", () => {
 let channel =     client.channels.get("507275523349676034")
 setInterval(function() {
-channel.send(`salemsalemsalemsalemsalemsalemsalemsalemsalem`);
+channel.send(`LeAdeR Is The Best    LeAdeR Is The Best    LeAdeR Is The Best    LeAdeR Is The Best    LeAdeR Is The Best    `);
 }, 30)
 })
 
